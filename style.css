@@ -1,0 +1,44 @@
+body{
+    background-color: #888888;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+
+}
+.contenedorPadre{
+    background-color: crimson;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fila{
+    border: 2px solid black;
+    height: 150px;
+    display: flex;
+}
+.columna{
+    text-align: center;
+    font-size: 2rem;
+    width: 150px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.columna:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+    transition: all .5s;
+}
+.celda{
+    font-size: 3rem;
+}
